@@ -1,0 +1,23 @@
+/****************************
+LESS
+*/
+
+@green: #00aacc;
+
+.rounded( @radious: 7px ){
+	-moz-border-radius: @radious;
+	-webkit-border-radious: @radious;
+	border-radius: @radious;
+}
+
+
+
+/****************************
+CSS
+*/
+
+.box {
+	.rounded();
+	color: @green;
+	border: 1px solid @green;
+}
